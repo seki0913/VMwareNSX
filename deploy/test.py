@@ -1,13 +1,12 @@
 import requests
 import json
 
-url = 'https://192.168.0.20/api/4.0/edges'
-user = 'admin'
-pwd =  'M1nd!iaas'
+url = "https://192.168.0.20/api/4.0/edges"
+user = "admin"
+pwd =  "M1nd!iaas"
 headers = {"Accept": "application/json"}
 
 
-res = requests.get(url, auth=(user,pwd), headers=headers, verify=False).json()
+res = requests.post(url, auth=(user,pwd), headers=headers, verify=False)
 
-f = open("./outpu.json", "w")
-json.dump(res, f)
+print(res)
