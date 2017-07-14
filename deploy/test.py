@@ -6,5 +6,5 @@ pwd =  'M1nd!iaas'
 headers = {"Accept": "application/json"}
 
 
-res = requests.get(url, auth=(user,pwd), headers, verify=False)
+res = requests.get(url, auth=(user,pwd), headers=headers, verify=False)
 print(res)
