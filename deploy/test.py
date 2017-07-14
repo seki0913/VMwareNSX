@@ -7,5 +7,7 @@ pwd =  'M1nd!iaas'
 headers = {"Accept": "application/json"}
 
 
-res = requests.get(url, auth=(user,pwd), headers=headers, verify=False)
-print(res.json())
+res = requests.get(url, auth=(user,pwd), headers=headers, verify=False).json()
+
+f = open("./outpu.json", "w")
+json.dump(res, f)
