@@ -7,4 +7,4 @@ headers = {"Accept": "application/json"}
 
 
 res = requests.get(url, auth=(user,pwd), headers=headers, verify=False)
-print(res)
+print(res.json)
