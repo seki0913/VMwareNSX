@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pagedEdgeList>
+    <edgePage>
+        <pagingInfo>
+            <pageSize>256</pageSize>
+            <startIndex>0</startIndex>
+            <totalCount>1</totalCount>
+            <sortOrderAscending>true</sortOrderAscending>
+            <sortBy>id</sortBy>
+        </pagingInfo>
+        <edgeSummary>
+            <objectId>edge-12</objectId>
+            <objectTypeName>Edge</objectTypeName>
+            <vsmUuid>423DA508-8C82-9099-BDB3-5E2E20742443</vsmUuid>
+            <nodeId>335cc65a-f18b-4316-ad65-e84c0579cc59</nodeId>
+            <revision>8</revision>
+            <type>
+                <typeName>Edge</typeName>
+            </type>
+            <name>Edge</name>
+            <clientHandle></clientHandle>
+            <extendedAttributes/>
+            <isUniversal>false</isUniversal>
+            <universalRevision>0</universalRevision>
+            <id>edge-12</id>
+            <state>deployed</state>
+            <edgeType>gatewayServices</edgeType>
+            <datacenterMoid>datacenter-21</datacenterMoid>
+            <datacenterName>Datacenter</datacenterName>
+            <tenantId>default</tenantId>
+            <apiVersion>4.0</apiVersion>
+            <recentJobInfo>
+                <jobId>jobdata-6543</jobId>
+                <status>SUCCESS</status>
+            </recentJobInfo>
+            <edgeStatus>GREEN</edgeStatus>
+            <numberOfConnectedVnics>2</numberOfConnectedVnics>
+            <appliancesSummary>
+                <vmVersion>6.3.0</vmVersion>
+                <vmBuildInfo>6.3.0-5113781</vmBuildInfo>
+                <applianceSize>large</applianceSize>
+                <fqdn>NSX-edge-12</fqdn>
+                <numberOfDeployedVms>1</numberOfDeployedVms>
+                <activeVseHaIndex>0</activeVseHaIndex>
+                <vmMoidOfActiveVse>vm-222</vmMoidOfActiveVse>
+                <vmNameOfActiveVse>Edge-0</vmNameOfActiveVse>
+                <hostMoidOfActiveVse>host-63</hostMoidOfActiveVse>
+                <hostNameOfActiveVse>192.168.0.2</hostNameOfActiveVse>
+                <resourcePoolMoidOfActiveVse>resgroup-75</resourcePoolMoidOfActiveVse>
+                <resourcePoolNameOfActiveVse>Resources</resourcePoolNameOfActiveVse>
+                <dataStoreMoidOfActiveVse>datastore-64</dataStoreMoidOfActiveVse>
+                <dataStoreNameOfActiveVse>datastore1 (1)</dataStoreNameOfActiveVse>
+                <statusFromVseUpdatedOn>1500348187694</statusFromVseUpdatedOn>
+                <communicationChannel>msgbus</communicationChannel>
+                <enableFips>false</enableFips>
+            </appliancesSummary>
+            <hypervisorAssist>false</hypervisorAssist>
+            <allowedActions>
+                <string>Change Log Level</string>
+                <string>Add Edge Appliance</string>
+                <string>Delete Edge Appliance</string>
+                <string>Edit Edge Appliance</string>
+                <string>Edit CLI Credentials</string>
+                <string>Change FIPS mode</string>
+                <string>Change edge appliance size</string>
+                <string>Force Sync</string>
+                <string>Redeploy Edge</string>
+                <string>Change Edge Appliance Core Dump Configuration</string>
+                <string>Enable hypervisorAssist</string>
+                <string>Edit Highavailability</string>
+                <string>Edit Dns</string>
+                <string>Edit Syslog</string>
+                <string>Edit Automatic Rule Generation Settings</string>
+                <string>Disable SSH</string>
+                <string>Download Edge TechSupport Logs</string>
+            </allowedActions>
+        </edgeSummary>
+    </edgePage>
+</pagedEdgeList>
