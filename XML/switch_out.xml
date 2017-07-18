@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdsContexts>
+    <vdsContext>
+        <switch>
+            <objectId>dvs-129</objectId>
+            <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+            <vsmUuid>423DA508-8C82-9099-BDB3-5E2E20742443</vsmUuid>
+            <nodeId>335cc65a-f18b-4316-ad65-e84c0579cc59</nodeId>
+            <revision>18</revision>
+            <type>
+                <typeName>VmwareDistributedVirtualSwitch</typeName>
+            </type>
+            <name>DSwitch 1</name>
+            <scope>
+                <id>group-n135</id>
+                <objectTypeName>Folder</objectTypeName>
+                <name>NSX_NW</name>
+            </scope>
+            <clientHandle></clientHandle>
+            <extendedAttributes/>
+            <isUniversal>false</isUniversal>
+            <universalRevision>0</universalRevision>
+        </switch>
+        <mtu>1600</mtu>
+        <teaming>FAILOVER_ORDER</teaming>
+        <uplinkPortName>Uplink 4</uplinkPortName>
+        <promiscuousMode>false</promiscuousMode>
+    </vdsContext>
+</vdsContexts>
