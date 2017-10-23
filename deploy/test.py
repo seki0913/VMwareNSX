@@ -3,7 +3,7 @@ import json
 
 url = "https://192.168.0.20/api/2.0/vdn/scopes"
 user = "admin"
-pwd =  "M1nd!iaas"
+pwd =  "password"
 headers = {"Accept": "application/json"}
 
 
