@@ -3,7 +3,7 @@ import requests, json
 
 url = "https://192.168.0.20/api/2.0/vdn/scopes?inUniveral=true"
 user = "admin"
-pwd =  "M1nd!iaas"
+pwd =  "password"
 headers = {"content-type": "application/json"}
 method = "POST"
 
